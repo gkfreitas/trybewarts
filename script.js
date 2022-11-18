@@ -78,7 +78,7 @@ function showInfos() {
   const userEmail = document.getElementById('input-email').value;
   let userFamily = document.querySelector('input[name="family"]:checked');
   if (userFamily === null) {
-    userFamily = 'Vazio!';
+    userFamily = 'Vazio!!';
   } else {
     userFamily = userFamily.value;
   }
